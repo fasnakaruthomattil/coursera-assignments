@@ -2,40 +2,64 @@
 	box-sizing: border-box;
 	
  }
-h1
+
+h1.mainmenu
 {
-	color:black;
+	color:#EAEDED;
 	text-align: center;
 	margin-bottom:10px;
-
+  margin-top: 50px;
+  font-family:Verdana;
+  font-weight: bolder;
 }
-p
+
+body
 {
-
-  	width:100%;
-  	height:150px;
-  	/*margin-right:auto;
-  	margin-left: auto;*/
-  	font-family: Helvetica;
-  	background-color: gray;
+  background-color: #273746 ;
 }
+
+p
+{  	
+    width:100%;
+    color:#283747;
+    font-family: Helvetica;
+    font-style: italic;
+    background-color: #F4F6F7;
+    padding: 30px;
+}
+
 h2
 {
-	color:maroon;
+	  color:#FDFEFE  ;
     float:right;
     margin: 0 0 10px 10px;
-    background-color: yellow;
     border: 1px solid black;   
 }
     
-div
+h2.maroon
 {
-    margin: 50px;
-    padding:0px;
+  background-color:maroon;
 }
-.row
+
+h2.olive
+{
+  background-color:olive;
+}
+ 
+h2.teal
+{
+  background-color:teal;
+}
+
+div.menu
+{
+    margin: 0 55px 0 55px;
+    padding:0px;  
+}
+div.row
 {
 	width=100%;
+
 }
 /* Large Devices */
 @media(min-width:992px)
@@ -46,7 +70,7 @@ div
     }	 
    .col-lg-3
     {
-    	width:25%;
+    	width:25%;+-+
     }
  }		
 /* Medium Devices */

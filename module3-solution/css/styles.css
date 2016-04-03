@@ -62,8 +62,14 @@ body
 {
   font-size:1.2em;
   background-color:#fff;
-  color:red;
+  color:black;
   border:1px solid green;
+}
+
+#collapsable-nav a:hover
+{
+  
+  background-color:#1E8449;
 }
 
 

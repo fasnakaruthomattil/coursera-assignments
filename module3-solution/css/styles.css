@@ -1,0 +1,162 @@
+body 
+{
+  background-color: #1E8449;
+}
+
+
+/** HEADER **/
+#header-nav 
+{
+  background-color: #F9E79F;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand  
+{
+  padding-top: 25px;
+}
+
+
+.navbar-brand h1 
+{
+  font-family: 'Lora',serif;
+  color: #557c3e;
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3.5;
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus
+{
+ 	text-decoration: none;
+}
+
+
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar
+{
+	border:1px solid green; 
+}
+
+
+.navbar-header button.navbar-toggle
+{
+	clear:both;
+	margin-top: -30px;
+}
+
+
+.nav,.navbar-nav a:hover
+{
+  color: #951C49;
+  text-align: center;
+}
+
+
+
+#collapsable-nav a
+{
+  font-size:1.2em;
+  background-color:#fff;
+  color:red;
+  border:1px solid green;
+}
+
+
+h1
+{
+
+  font-size:2.5em;
+  font-family:'Oxygen',sans-serif;
+  color:#F9E79F;
+}
+
+
+p
+{   
+    width:100%;
+    color:#1E8449;
+    font-family: Helvetica;
+    font-style: italic;
+    background-color: #F4F6F7;
+    height:1000px;
+    padding:70px;
+    font-size:1.3em;
+}
+
+h2
+{
+  position:absolute;
+  top:0;
+  width:100%;
+  font-size:1.6em;
+  color:#1E8449;
+  font-style:italic;
+  
+}
+/********** Large devices only **********/
+@media (min-width :1200)
+{
+.col-md-12
+  {
+    width: 100%;
+  }  
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) 
+{
+
+.col-md-12
+  {
+    width: 100%;
+  }
+
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+.col-sm-12
+  {
+    width:100%;
+  }
+
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px)
+
+{
+
+#our-menu h1
+{
+
+  font-size:1em;
+}
+
+
+.navbar-brand h1 
+{
+  line-height:.4;
+}
+
+
+.col-xxs-12 
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+}
+
